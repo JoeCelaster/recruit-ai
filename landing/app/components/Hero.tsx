@@ -25,11 +25,11 @@ export default function Hero() {
     y: mouse.y * strength,
   });
 
-  const floatTransition = {
-    duration: 4,
-    repeat: Infinity,
-    ease: "easeInOut",
-  };
+ const floatTransition = {
+  duration: 4,
+  repeat: Infinity,
+  ease: "easeInOut",
+} as const;
 
   return (
     <section

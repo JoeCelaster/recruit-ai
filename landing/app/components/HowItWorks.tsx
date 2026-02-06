@@ -1,10 +1,11 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, type Transition, type Variants } from "framer-motion";
+
 import MetricsBars from "./MetricsBars";
 import CompanyLogos from "./CompanyLogos";
 
-const cardVariants = {
+const cardVariants: Variants = {
   hidden: { opacity: 0, y: 40, scale: 0.98 },
   visible: {
     opacity: 1,
@@ -14,14 +15,17 @@ const cardVariants = {
   },
 };
 
-const floatVariants = {
+
+const floatTransition: Transition = {
+  duration: 4,
+  repeat: Infinity,
+  ease: "easeInOut",
+};
+
+const floatVariants: Variants = {
   animate: {
     y: [0, -8, 0],
-    transition: {
-      duration: 4,
-      repeat: Infinity,
-      ease: "easeInOut",
-    },
+    transition: floatTransition,
   },
 };
 
