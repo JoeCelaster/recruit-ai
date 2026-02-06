@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --primary: #000000;
+  --primary-foreground: #ffffff;
+  --accent-blue: #bae6fd;
+  --accent-purple: #c7d2fe;
+  --accent-green: #99f6e4;
+  --accent-pink: #fbcfe8;
+  --accent-yellow: #fef08a;
+  --accent-orange: #ffedd5;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-unbounded);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-unbounded);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .bg-accent-blue { background-color: var(--accent-blue); }
+  .bg-accent-purple { background-color: var(--accent-purple); }
+  .bg-accent-green { background-color: var(--accent-green); }
+  .bg-accent-pink { background-color: var(--accent-pink); }
+  .bg-accent-yellow { background-color: var(--accent-yellow); }
+  .bg-accent-orange { background-color: var(--accent-orange); }
+}
