@@ -162,7 +162,7 @@ export default function HowItWorks() {
                 className="bg-[#FAEEFF] border-2 border-gray-700 rounded-3xl relative p-8 overflow-hidden pt-16 min-h-[420px] flex flex-col items-center text-center md:col-start-2 md:row-start-2"
               >
                 <motion.img
-                  src="/step-4.svg"
+                  src="/Step-4.svg"
                   alt="Interview day"
                   variants={floatVariants}
                   animate="animate"
