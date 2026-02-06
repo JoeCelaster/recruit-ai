@@ -49,7 +49,7 @@ export default function FAQ() {
           {/* Left Illustration */}
           <div className="md:w-1/2 flex justify-center">
             <Image
-              src="/faq.svg"
+              src="/Faq.svg"
               alt="FAQ Illustration"
               width={500}
               height={500}
