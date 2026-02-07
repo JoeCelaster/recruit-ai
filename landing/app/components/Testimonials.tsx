@@ -59,7 +59,7 @@ export default function TestimonialsMarquee() {
   const row2 = [...testimonials, ...testimonials];
 
   return (
-    <section className="border-2 border-t-0 border-gray-400 py-20 sm:py-30 bg-white overflow-hidden">
+    <section id="testimonials" className="border-2 border-t-0 border-gray-400 py-20 sm:py-30 bg-white overflow-hidden">
       <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-8 relative">
   {/* Header */}
   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8 md:gap-16 mb-16 md:mb-24">
