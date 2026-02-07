@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-  
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -57,11 +57,11 @@ export default function Navbar() {
           <Link href="#how-it-works" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
             How it works
           </Link>
-          <Link href="#pricing" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
-            Pricing
+          <Link href="#faq" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
+            FAQs
           </Link>
-          <Link href="#contact" className="text-white hover:text-gray-300 transition-colors text-sm font-medium text-nowrap">
-            Contact
+          <Link href="#testimonials" className="text-white hover:text-gray-300 transition-colors text-sm font-medium text-nowrap">
+            Testimonials
           </Link>
         </div>
 
