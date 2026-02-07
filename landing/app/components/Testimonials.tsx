@@ -32,6 +32,38 @@ const testimonials = [
     text: "What used to be chaos is now a clean pipeline. From applications to interview day, everything runs on autopilot. Couldn’t imagine hiring without it now.",
     avatar: "/person5.jpg",
   },
+
+  // 👇 New 5 for second row
+  {
+    name: "Priya Nair",
+    role: "People Ops, HireLoop",
+    text: "We cut our hiring ops time in half. The dashboard and automation are insanely smooth.",
+    avatar: "/person5.jpg",
+  },
+  {
+    name: "Karan Singh",
+    role: "Founder, DevSprint",
+    text: "Finally a hiring tool that feels built for founders, not enterprise bureaucracy.",
+    avatar: "/person2.jpg",
+  },
+  {
+    name: "Sneha Iyer",
+    role: "Talent Lead, BrightWare",
+    text: "Shortlists are high quality and consistent. Our interview-to-hire ratio improved a lot.",
+    avatar: "/person1.jpg",
+  },
+  {
+    name: "Rohit Malhotra",
+    role: "COO, ScaleMint",
+    text: "Scheduling alone saves us hours every week. Worth it just for that.",
+    avatar: "/person3.jpg",
+  },
+  {
+    name: "Aditi Rao",
+    role: "HR, QuickStack",
+    text: "Cleaner pipeline, better visibility, and fewer hiring mistakes. Love it.",
+    avatar: "/person4.jpg",
+  },
 ];
 
 
